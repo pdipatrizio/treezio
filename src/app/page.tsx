@@ -11,27 +11,27 @@ const services = [
   {
     name: "Get found on Google",
     description:
-      "Search engine work in plain English. I tune your pages and your local listings so the people searching for what you do actually find you.",
+      "Search engine work in plain English. I tune your pages and your local listings so the people searching for what you do can actually find you.",
   },
   {
     name: "Turn visitors into customers",
     description:
-      "Traffic only matters if it becomes calls, bookings, and orders. I find where visitors give up and fix it, one measured change at a time.",
+      "Traffic only matters if it becomes calls, bookings, and orders. I find where your visitors give up and I fix it, one measured change at a time.",
   },
 ];
 
 const proofPoints = [
   {
     title: "The website was my whole job",
-    body: "I spent years at software companies where the website was the sales team. I ran those sites end to end, from the code to the copy to the results.",
+    body: "I spent years at software companies where the website was the sales team. I ran those sites end to end myself, from the code to the copy to the results.",
   },
   {
     title: "Forms that people actually finish",
-    body: "At my last marketing role I replaced every landing page form with a short guided version that asked what the visitor wanted first. Conversions climbed across the board. You just used that idea below.",
+    body: "At my last marketing role I replaced every landing page lead form with a short guided version that asked what the visitor wanted first. Conversions climbed across the board.",
   },
   {
     title: "Speed is a feature",
-    body: "Slow pages lose customers before they read a word. I build light and fast, and I can usually make an existing site noticeably quicker without a rebuild.",
+    body: "Slow pages lose customers before they read a word. I build light and fast, but I can also make existing websites noticeably quicker without a rebuild.",
   },
 ];
 
@@ -70,7 +70,7 @@ export default function Home() {
                 Your website should be bringing you customers.
               </h1>
               <p className="mt-6 max-w-xl text-lg leading-relaxed text-bark-600">
-                I’m Philip. I build, fix, and tune websites for small businesses
+                I'm Philip. I build, fix, and tune websites for small businesses
                 around Ann Arbor and metro Detroit. More people finding you,
                 faster pages, more calls and orders.
               </p>
@@ -146,17 +146,16 @@ export default function Home() {
             </h2>
             <div className="mt-6 space-y-5 text-lg leading-relaxed text-moss-200">
               <p>
-                I’m Philip DiPatrizio. I’ve spent my career on the web, first
-                leading digital marketing teams and then building sites myself
-                as a developer. That mix is the whole point of Treezio. I write
-                the code, and I also understand why the site exists, to bring
-                you business.
+                I'm Philip DiPatrizio. I've spent my career on the web, leading
+                digital marketing teams and building sites myself as a developer.
+                That mix is the whole point of Treezio. I write the code, and I
+                also understand why the site exists... to bring you business.
               </p>
               <p>
                 I live in the Ann Arbor area and I like working with businesses
                 I can actually visit. When you work with Treezio you work with
-                me, not an account manager, and you’ll always get a straight
-                answer about what’s worth doing and what isn’t.
+                me, not an account manager. And you'll always get a straight
+                answer about what's worth doing and what isn't.
               </p>
             </div>
           </div>
@@ -165,7 +164,7 @@ export default function Home() {
         {/* Contact */}
         <section id="contact" className="mx-auto max-w-5xl px-6 py-20">
           <h2 className="text-center font-display text-3xl font-bold tracking-tight text-pine-950 sm:text-4xl">
-            What’s going on with your website?
+            What's going on with your website?
           </h2>
           <p className="mx-auto mt-3 max-w-xl text-center text-bark-600">
             Pick the one that sounds most like you. No commitment, no jargon,

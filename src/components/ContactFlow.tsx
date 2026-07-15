@@ -17,34 +17,34 @@ const intents: Intent[] = [
     id: "new-site",
     label: "I need a new website",
     followUp:
-      "Great, that’s my favorite kind of project. Tell me a little about your business and I’ll follow up with ideas and a plain-English quote.",
+      "Great, that's my favorite kind of project! Tell me a little about your business and I'll follow up with some ideas and a plain-English quote.",
     subject: "New website for my business",
   },
   {
     id: "slow-site",
     label: "My site feels slow or outdated",
     followUp:
-      "Slow pages quietly turn customers away. Send me your web address and I’ll take a free look before we even talk.",
+      "Slow pages quietly turn customers away. Send me your URL and I'll take a free look before we even talk.",
     subject: "My site feels slow or outdated",
   },
   {
     id: "not-found",
-    label: "I’m not showing up on Google",
+    label: "I'm not showing up on Google",
     followUp:
-      "That’s fixable more often than people think. Tell me what your customers search for and I’ll check where you stand.",
+      "That's fixable more often than people think. Tell me what your customers search for and I'll check where you stand.",
     subject: "Help me show up on Google",
   },
   {
     id: "no-leads",
     label: "I get visitors but not enough customers",
     followUp:
-      "This is the work I love most. Small changes to pages and forms can make a real difference in calls and orders.",
+      "This is some of the work I love most. Small tweaks to pages and lead forms can make a real difference in calls and orders.",
     subject: "Turning my visitors into customers",
   },
   {
     id: "other",
     label: "Something else",
-    followUp: "No problem. Tell me what’s on your mind and I’ll point you in the right direction, even if the answer isn’t me.",
+    followUp: "No problem. Tell me what's on your mind and I'll help point you in the right direction, even if the answer isn't me.",
     subject: "A question about my website",
   },
 ];
@@ -131,7 +131,7 @@ export default function ContactFlow() {
               rows={4}
               value={message}
               onChange={(e) => setMessage(e.target.value)}
-              placeholder="Your website address, what you sell, and what you’d like to change."
+              placeholder="Your website address, what you sell, and what you'd like to change."
               className="w-full rounded-lg border border-moss-200 bg-white px-4 py-2.5 text-pine-950 placeholder:text-bark-400 focus-visible:outline-2 focus-visible:outline-offset-1 focus-visible:outline-leaf-600"
             />
           </label>

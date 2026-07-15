@@ -15,7 +15,7 @@ const instrument = Instrument_Sans({
 export const metadata: Metadata = {
   title: "Treezio, websites that grow Michigan businesses",
   description:
-    "Philip DiPatrizio builds, fixes, and tunes websites for small businesses around Ann Arbor and metro Detroit. Web design, SEO, and conversion work that brings in customers.",
+    "Philip DiPatrizio builds, fixes, and tunes websites for small businesses around Ann Arbor and metro Detroit. Web design, SEO, and conversion optimization work that brings you customers.",
 };
 
 export default function RootLayout({
