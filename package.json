@@ -6,6 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "deploy": "next build && wrangler pages deploy out --project-name treezio",
     "lint": "eslint"
   },
   "dependencies": {
@@ -22,6 +23,7 @@
     "eslint-config-next": "16.2.10",
     "sharp": "^0.35.3",
     "tailwindcss": "^4",
-    "typescript": "^5"
+    "typescript": "^5",
+    "wrangler": "^4.111.0"
   }
 }

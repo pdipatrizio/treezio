@@ -18,6 +18,35 @@ export const metadata: Metadata = {
     "Philip DiPatrizio builds, fixes, and tunes websites for small businesses around Ann Arbor and metro Detroit. Web design, SEO, and conversion optimization work that brings you customers.",
 };
 
+// Ties the Philip DiPatrizio entity to his other profiles for search engines.
+// Kept consistent with the Person schema on dipatriz.io.
+const personSchema = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  name: "Philip DiPatrizio",
+  url: "https://treezio.com",
+  jobTitle: "Web Developer",
+  worksFor: {
+    "@type": "Organization",
+    name: "Treezio",
+    url: "https://treezio.com",
+  },
+  homeLocation: {
+    "@type": "Place",
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: "Ann Arbor",
+      addressRegion: "MI",
+      addressCountry: "US",
+    },
+  },
+  sameAs: [
+    "https://github.com/pdipatrizio",
+    "https://dipatriz.io",
+    "https://www.linkedin.com/in/philipdipatrizio",
+  ],
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -28,7 +57,13 @@ export default function RootLayout({
       lang="en"
       className={`${bricolage.variable} ${instrument.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema) }}
+        />
+        {children}
+      </body>
     </html>
   );
 }

@@ -157,6 +157,16 @@ export default function Home() {
                 me, not an account manager. And you'll always get a straight
                 answer about what's worth doing and what isn't.
               </p>
+              <p>
+                If you want to see how I work,{" "}
+                <a
+                  href="https://github.com/pdipatrizio"
+                  className="font-medium text-paper underline underline-offset-2 hover:text-amber-500"
+                >
+                  my code is on GitHub
+                </a>
+                .
+              </p>
             </div>
           </div>
         </section>
