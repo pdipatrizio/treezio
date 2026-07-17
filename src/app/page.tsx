@@ -164,6 +164,13 @@ export default function Home() {
                   className="font-medium text-paper underline underline-offset-2 hover:text-amber-500"
                 >
                   my code is on GitHub
+                </a>{" "}
+                and my personal site is at{" "}
+                <a
+                  href="https://dipatriz.io"
+                  className="font-medium text-paper underline underline-offset-2 hover:text-amber-500"
+                >
+                  dipatriz.io
                 </a>
                 .
               </p>
